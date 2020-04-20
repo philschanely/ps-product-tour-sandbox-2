@@ -1,0 +1,47 @@
+.app {
+  font-family: sans-serif;
+  color: $color-black;
+  display: grid;
+  height: 100vh;
+  width: 100%;
+  grid-template-columns: 200px 1fr;
+  grid-template-rows: 80px 60px 1fr 100px;
+  grid-template-areas:
+    "brand   search"
+    "sidebar head"
+    "sidebar body"
+    "sidebar footer"
+}
+
+.app__brand {
+  grid-area: brand;
+  background-color: $color-blue;
+  color: white;
+  font-size: 3.6rem;
+  text-transform: uppercase;
+  font-weight: normal;
+  letter-spacing: 4px;
+  padding: 20px;
+  text-align: center;
+}
+
+.app__footer {
+  grid-area: footer;
+}
+
+.app__head {
+  grid-area: head;
+}
+
+.app__main {
+  grid-area: main;
+}
+
+.app__search {
+  grid-area: search;
+}
+
+.app__sidebar {
+  grid-area: sidebar;
+  background-color: $color-white-dark;
+}

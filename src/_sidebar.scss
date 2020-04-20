@@ -1,0 +1,20 @@
+.sidebar {
+}
+
+.sidebar__item {
+  padding: 10px 20px;
+  font-size: 1.6rem;
+  color: $color-black;
+
+  &:hover {
+    background-color: white;
+  }
+}
+
+.sidebar__items {
+  padding: 20px 0;
+
+  &:not(:last-child) {
+    border-bottom: 1px solid $color-white-extra-dark;
+  }
+}

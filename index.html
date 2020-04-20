@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Parcel Sandbox</title>
+    <meta charset="UTF-8" />
+  </head>
+  <body>
+    <div class="app">
+      <h1 id="brand" class="app__brand">App</h1>
+      <nav class="app__sidebar sidebar">
+        <ul class="sidebar__items">
+          <li class="sidebar__item" id="item-1">Item 1</li>
+          <li class="sidebar__item">Item 2</li>
+          <li class="sidebar__item">Item 3</li>
+        </ul>
+        <ul class="sidebar__items">
+          <li class="sidebar__item" id="item-a">Item A</li>
+          <li class="sidebar__item">Item B</li>
+          <li class="sidebar__item">Item C</li>
+          <li class="sidebar__item">Item D</li>
+        </ul>
+      </nav>
+      <header class="app__head">
+        <h2>Page</h2>
+        <button class="btn" id="add-btn">Add</button>
+      </header>
+      <main class="app__body">
+        <ul class="tiles">
+          <li class="tile">
+            <img
+              class="tile__image"
+              src="https://source.unsplash.com/2hJhdrsE3hw/640x360"
+            />
+            <p class="tile__label">Tile label</p>
+          </li>
+          <li class="tile">
+            <img
+              class="tile__image"
+              src="https://source.unsplash.com/aWX5w5ZfT3A/640x360"
+            />
+            <p class="tile__label">Tile label</p>
+          </li>
+          <li class="tile" id="tile-3">
+            <img
+              class="tile__image"
+              src="https://source.unsplash.com/ei6rRkX80s0/640x360"
+            />
+            <p class="tile__label">Tile label</p>
+          </li>
+          <li class="tile">
+            <img
+              class="tile__image"
+              src="https://source.unsplash.com/kz2yGL1a0XE/640x360"
+            />
+            <p class="tile__label">Tile label</p>
+          </li>
+          <li class="tile">
+            <img
+              class="tile__image"
+              src="https://source.unsplash.com/vBwgMWPxtS4/640x360"
+            />
+            <p class="tile__label">Tile label</p>
+          </li>
+        </ul>
+      </main>
+      <form class="app__search search">
+        <input id="search" class="search__input" type="text" />
+        <button class="search__button btn">Search</button>
+      </form>
+      <footer class="app__footer">
+        <p>Copyright and stuff</p>
+        <button class="btn" id="footer-btn">Cake!</button>
+      </footer>
+    </div>
+    <script src="src/index.js"></script>
+  </body>
+</html>

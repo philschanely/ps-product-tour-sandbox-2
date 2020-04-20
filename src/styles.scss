@@ -1,0 +1,32 @@
+$color-blue: #0072EF;
+$color-black: #202832;
+$color-white-dark: #F6F8F9;
+$color-white-extra-dark: #F1F2F4;
+
+html, body, div, ul, li, p, h1, h2, button, input {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 10px;
+}
+
+.btn {
+  border: none;
+  color: white;
+  background-color: $color-blue;
+  padding: 10px 20px;
+  font-size: 1.4rem;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+
+  &:focus {
+    outline: none;
+  }
+}
+
+@import "./app";
+@import "./sidebar";
+@import "./tile";
+@import "./search";
